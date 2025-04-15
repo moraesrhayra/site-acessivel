@@ -97,15 +97,6 @@ botaoDeAcessibilidade.addEventListener('click', function (){
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
    })
 
-   <div id="acessibilidade" class="menu-acessibilidade"> 
-   <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
-   <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
-           <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
-           <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
-           <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>
-   </div>
-</div>
-
 const alternaContraste = document.getElementById('alterna-contraste')
 alternaContraste.addEventListener('click', function(){
     document.body.classList.toggle('alto-contraste')
